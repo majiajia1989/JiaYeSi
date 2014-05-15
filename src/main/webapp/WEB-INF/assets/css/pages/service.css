@@ -1,0 +1,57 @@
+.service .service-list{
+	width:46%; 
+	height:50px; 
+	margin-left:2%;
+	margin-right:2%;
+	text-align:center;
+	padding-top:30px;
+	color:#5a5a5a;
+	font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;
+	font-weight: normal;
+}
+.service .bg1{
+	background:#fd815a;
+
+}
+.service .bg2{
+	background:#5afdb6;
+
+}
+.service .bg3{
+	background:#5ab2fd;
+
+}
+.service .bg4{
+	background:#fd5a90;
+
+}
+.link_tel{
+    display:block!important;
+    line-height:40px!important;
+    margin:10px 10px 0 10px;
+    margin-top:10px!important;
+    background:#ea5946;
+    color:#fff!important;
+    text-align:center;
+    border-radius:5px;
+    word-spacing:nowrap;
+    overflow:hidden;
+    font-size:18px;
+    position:relative;
+}
+.link_tel:before{
+    margin-left:0;
+    position:absolute;
+    left:10px;
+    top:2px;
+    font-size:25px;
+}
+.ui-overlay-a,
+.ui-page-theme-a,
+.ui-page-theme-a .ui-panel-wrapper {
+	background-color: 			#f9f9f9 /*{a-page-background-color}*/;
+	border-color:	 		#bbb /*{a-page-border}*/;
+	color: 					#333 /*{a-page-color}*/;
+	text-shadow:none;
+}
+.margin-top15{margin-top:15px;}

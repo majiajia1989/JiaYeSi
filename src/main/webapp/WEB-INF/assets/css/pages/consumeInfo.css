@@ -1,0 +1,18 @@
+table .td_left{
+	width:30%;
+	text-align:center;
+	padding:5px 0px;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	font-size:14px;
+}
+table .td_right{
+	border-bottom:1px solid #ccc;
+	padding:5px 0px;
+	padding-left:5px;
+	font-size:14px;
+}
+
+.ui-listview > .ui-li-static{
+	padding:0px;
+}

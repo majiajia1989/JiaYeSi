@@ -1,0 +1,219 @@
+body{
+	margin-top:10px;
+}
+
+#content{								/* 具体内容 */
+	/*border-left:1px solid #ABABAB;	
+	border-right:1px solid #ABABAB;		
+	border-bottom:1px solid #ABABAB;	*/
+	padding:10px;
+	font-size:12px;
+	margin-top:25px;
+	padding-bottom:28px;
+}
+ul#tabnav{
+	font-size:14px;
+	position: fixed;
+	z-index: 900;
+	top: 0;
+	left: -1px;
+	right: 0;
+	height: 10px;
+	list-style-type:none;
+	margin:0px;
+	padding-left:0px;					/* 左侧无空隙 */
+	padding-bottom:36px;
+	border-bottom:1px solid #ee6d44;	/* 菜单的下边框 */
+	font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;
+	font-weight: normal;
+	mrgin-top:15px;
+	mrgin-left:5px;
+	padding-left:5px;
+}
+ul#tabnav li{
+	float:left;
+	height:37px;
+	width:31%;
+	min-width:70px;
+	margin:0px 2px 0px 0px;	
+	font-size:14px;	
+	border:1px solid #ed5728;
+	background-color:#ffe156;
+	text-decoration:none;
+	background-image: linear-gradient(bottom,  #fd815a 0%, #fc9f81 100%);
+	background-image: -o-linear-gradient(bottom, #fd815a 0%, #fc9f81 100%);
+	background-image: -moz-linear-gradient(bottom, #fd815a 0%, #fc9f81 100%);
+	background-image: -webkit-linear-gradient(bottom, #fd815a 0%, #fc9f81 100%);
+	background-image: -ms-linear-gradient(bottom, #fd815a 0%, #fc9f81 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #fd815a),
+	color-stop(1, #fc9f81)
+	);
+	-webkit-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	text-align:center;
+}
+/*ul#tabnav li.menu1{
+	position:fixed;
+	}
+ul#tabnav li.menu2{
+	position:fixed;
+	left:32%;
+	}
+ul#tabnav li.menu3{
+	position:fixed;
+	left:64%;
+	}
+*/
+ul#tabnav a:link, ul#tabnav a:visited{
+	display:block;						/* 块元素 */
+	color:#fff;
+	text-decoration:none;
+	padding-top:9px;
+	height:35px;
+	padding-left:10%;
+	padding-right:10%;
+	text-shadow:0 0 0;
+}
+ul#tabnav a:hover{
+	color:#000;
+	height:35px;
+	text-align:center;
+	background-color:#ffe156;
+	text-decoration:none;
+	background-image: linear-gradient(bottom,  #fed6c9 0%, #fd815a 100%);
+	background-image: -o-linear-gradient(bottom, #fed6c9 0%, #fd815a 100%);
+	background-image: -moz-linear-gradient(bottom, #fed6c9 0%, #fd815a 100%);
+	background-image: -webkit-linear-gradient(bottom, #fed6c9 0%, #fd815a 100%);
+	background-image: -ms-linear-gradient(bottom, #fed6c9 0%, #fd815a 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #fed6c9),
+	color-stop(1, #fd815a)
+	);
+	-webkit-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+body#all li.menu1,
+body#public li.menu2,	/* 当前页面的菜单项 */
+body#oneself li.menu3{
+	border-bottom:1px solid #ee6d44;	/* 白色下边框，覆盖<ul>中的下边框 */
+	color:#000000;
+	background-color:#FFFFFF;
+	padding-bottom:5px;
+	
+}
+body#all li.menu1 a:link, body#all li.menu1 a:visited,	/* 当前页面的菜单项的超链接 */
+body#public li.menu2 a:link, body#public li.menu2 a:visited,
+body#oneself li.menu3 a:link, body#oneself li.menu3 a:visited{
+	color:#666;
+	height:35px;
+	background-image: linear-gradient(bottom,  #f9f9f9 0%, #fd815a 100%);
+	background-image: -o-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -moz-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -webkit-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -ms-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #f9f9f9),
+	color-stop(1, #fd815a)
+	);
+	-webkit-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	text-align:center;
+}
+body#all li.menu1 a:hover,
+body#public li.menu2 a:hover,
+body#oneself li.menu3 a:hover{
+	color:#666;
+	height:35px;
+	background-image: linear-gradient(bottom,  #f9f9f9 0%, #fd815a 100%);
+	background-image: -o-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -moz-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -webkit-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -ms-linear-gradient(bottom, #f9f9f9 0%, #fd815a 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #f9f9f9),
+	color-stop(1, #fd815a)
+	);
+	-webkit-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	text-align:center;
+}
+/*内容*/
+ul.round {
+	border:1px solid #c6c6c6;
+	background-color:rgba(255, 255, 255, 0.9);
+	text-align:left;
+	font-size:14px;
+	line-height:24px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-moz-box-shadow:0 1px 1px #f6f6f6;
+	-webkit-box-shadow:0 1px 1px #f6f6f6;
+	box-shadow:0 1px 1px #f6f6f6;
+	margin-bottom:5px;
+	display:block;
+	padding-bottom:0px;
+}
+ul.round li{border:none;}
+.message-title{
+    color: #373B3E;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align: left;
+	font-weight:normal;
+	
+}
+.round li h2 {
+    color: #373B3E;
+    font-size: 16px;
+    font-weight:normal;
+    line-height: 20px;
+    padding:0px 0px 5px 0px;
+	border-bottom:1px dotted #c6c6c6;
+}
+.round li h2.no-b{border:none;}
+.round li.message-title h2{margin:5px;font-weight:bold;}
+.message-title h2{text-align:center;}
+#content ul.round .text {
+    margin: 5px 0;
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #727272;
+}
+
+

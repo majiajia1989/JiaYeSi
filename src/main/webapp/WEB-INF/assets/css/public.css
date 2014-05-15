@@ -1,0 +1,135 @@
+img {
+	max-width:100%!important;
+}
+a {
+	color:#333;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+li{ list-style:none;}
+.f-left{float:left;}
+.f-right{ float:right;}
+.font-r{text-align:right;}
+.clr{
+	clear:both;
+}
+.red{
+	color:#FF6600;
+}
+.small{
+	font-size:12px;
+}
+.middle{
+	font-size:14px;
+}
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.m-left{margin-left:5px;margin-right:5px;}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.vertical-m{vertical-align:middle;}
+ /*******************图片切换开始******************************************/
+.box_swipe ul{
+	 list-style: none;
+	  width: 11384px; 
+	  transition: 500ms; 
+	  -webkit-transition: 500ms;
+	   -webkit-transform: translate3d(-8538px, 0, 0);
+ }
+.box_swipe ul li{
+	 width: 1423px; 
+	 display: table-cell; 
+	 vertical-align: top;
+	 height:100%;
+ }
+.box_swipe ul li img{
+	 width:100%;
+ } 
+.box_swipe{
+    overflow:hidden;
+    position:relative;
+}
+.box_swipe ul{
+    -webkit-padding-start: 0px;
+}
+
+.box_swipe>ol{
+    height:20px;
+    position: relative;
+    z-index:10;
+    margin-top:-25px;
+    text-align:right;
+    padding-right:15px;
+    background-color:rgba(0,0,0,0.3);
+}
+.box_swipe>ol>li{
+    display:inline-block;
+    margin:5px 0;
+    width:8px;
+    height:8px;
+    background-color:#757575;
+    border-radius: 8px;
+}
+.box_swipe>ol>li.on{
+    background-color:#ffffff;
+}
+/***********************图片切换结束**********************/	
+.ui-field-contain,
+.ui-mobile fieldset.ui-field-contain {
+		padding: 0;
+		margin:0px;
+		border-bottom-width: 0;
+	}
+.ui-content{padding: 0.4em;}
+.ui-icon-more:after { background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%20Tiny%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11-tiny.dtd%22%3E%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22tiny%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%20500%20500%22%20xml%3Aspace%3D%22preserve%22%3E%20%3Cpath%20d%3D%22M107.143%20205.357v53.571q0%2011.161-7.813%2018.973t-18.973%207.813h-53.571q-11.161%200-18.973-7.813t-7.813-18.973v-53.571q0-11.161%207.813-18.973t18.973-7.813h53.571q11.161%200%2018.973%207.813t7.813%2018.973zM250%20205.357v53.571q0%2011.161-7.813%2018.973t-18.973%207.813h-53.571q-11.161%200-18.973-7.813t-7.813-18.973v-53.571q0-11.161%207.813-18.973t18.973-7.813h53.571q11.161%200%2018.973%207.813t7.813%2018.973zM392.857%20205.357v53.571q0%2011.161-7.813%2018.973t-18.973%207.813h-53.571q-11.161%200-18.973-7.813t-7.813-18.973v-53.571q0-11.161%207.813-18.973t18.973-7.813h53.571q11.161%200%2018.973%207.813t7.813%2018.973z%22%20fill%3D%22%23ffffff%22%20%2F%3E%3C%2Fsvg%3E') }
+.ui-nosvg .ui-icon-more:after { background-image: url('../img/more-white.png'); }
+.ui-icon-cloud-upload:after { background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%20Tiny%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11-tiny.dtd%22%3E%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22tiny%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%20500%20500%22%20xml%3Aspace%3D%22preserve%22%3E%20%3Cpath%20d%3D%22M357.143%20241.071q0-3.906-2.511-6.417l-98.214-98.214q-2.511-2.511-6.417-2.511t-6.417%202.511l-97.935%2097.935q-2.79%203.348-2.79%206.696%200%203.906%202.511%206.417t6.417%202.511h62.5v98.214q0%203.627%202.651%206.278t6.278%202.651h53.571q3.627%200%206.278-2.651t2.651-6.278v-98.214h62.5q3.627%200%206.278-2.651t2.651-6.278zM535.714%20321.429q0%2044.364-31.39%2075.753t-75.753%2031.39h-303.571q-51.618%200-88.309-36.691t-36.691-88.309q0-36.272%2019.531-66.964t52.456-46.038q-0.558-8.371-0.558-11.998%200-59.152%2041.853-101.004t101.004-41.853q43.527%200%2079.66%2024.274t52.595%2064.453q19.81-17.299%2046.317-17.299%2029.576%200%2050.502%2020.926t20.926%2050.502q0%2021.206-11.44%2038.504%2036.272%208.649%2059.57%2037.807t23.298%2066.546z%22%20fill%3D%22%23ffffff%22%20%2F%3E%3C%2Fsvg%3E') }
+.ui-nosvg .ui-icon-cloud-upload:after { background-image: url('../img/cloud-upload.png'); }
+.ui-icon-thumbs-o-up:after { background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%20Tiny%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11-tiny.dtd%22%3E%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22tiny%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%20500%20500%22%20xml%3Aspace%3D%22preserve%22%3E%20%3Cpath%20d%3D%22M71.429%20375q0-7.254-5.301-12.556t-12.556-5.301-12.556%205.301-5.301%2012.556%205.301%2012.556%2012.556%205.301%2012.556-5.301%205.301-12.556zM392.857%20214.286q0-14.23-10.882-24.972t-24.833-10.742h-98.214q0-16.183%2013.393-44.503t13.393-44.782q0-27.344-8.929-40.458t-35.714-13.114q-7.254%207.254-10.603%2023.716t-8.51%2035.017-16.602%2030.552q-6.138%206.417-21.484%2025.391-1.116%201.395-6.417%208.371t-8.789%2011.44-9.626%2011.858-11.161%2012.277-10.742%209.905-11.161%207.534-9.905%202.511h-8.929v178.571h8.929q3.627%200%208.789%200.837t9.208%201.813%2010.603%203.069%209.766%203.208%209.905%203.488%208.091%202.93q58.873%2020.368%2095.424%2020.368h33.761q53.571%200%2053.571-46.596%200-7.254-1.395-15.625%208.371-4.464%2013.253-14.648t4.883-20.508-5.022-19.252q14.788-13.951%2014.788-33.203%200-6.976-2.79-15.485t-6.976-13.253q8.929-0.279%2014.927-13.114t5.999-22.601zM428.571%20214.007q0%2024.833-13.672%2045.48%202.511%209.208%202.511%2019.252%200%2021.484-10.603%2040.179%200.837%205.859%200.837%2011.998%200%2028.181-16.741%2049.665%200.279%2038.784-23.716%2061.245t-63.337%2022.461h-35.993q-26.786%200-52.874-6.278t-60.407-18.276q-32.366-11.161-38.504-11.161h-80.357q-14.788%200-25.251-10.463t-10.463-25.251v-178.571q0-14.788%2010.463-25.251t25.251-10.463h76.451q10.044-6.696%2038.226-43.248%2016.183-20.926%2029.855-35.714%206.696-6.976%209.905-23.856t8.51-35.296%2017.299-30.134q10.882-10.324%2025.112-10.324%2023.438%200%2042.132%209.068t28.46%2028.32%209.766%2051.897q0%2025.949-13.393%2053.571h49.107q29.018%200%2050.223%2021.206t21.206%2049.944z%22%20fill%3D%22%23ffffff%22%20%2F%3E%3C%2Fsvg%3E') }
+.ui-nosvg .ui-icon-thumbs-o-up:after { background-image: url('../img/thumbs-o-up.png'); }
+.ui-icon-readEmail:after { background-image: url('../img/readEmail-white.png');}
+.ui-nosvg .ui-icon-readEmail:after { background-image: url('../img/readEmail-white.png'); }
+.ui-icon-allEmail:after { background-image: url('../img/allEmail-white.png');}
+.ui-nosvg .ui-icon-allEmail:after { background-image: url('../img/allEmail-white.png'); }
+.form-control {
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.ui-listview > li p{
+	font-size:14px;
+}
+.ui-navbar li .ui-btn{
+	font-size:14px;
+}

@@ -1,0 +1,83 @@
+#main1{
+	font-size:16px; 
+	border: none;
+	background:#fff;
+	color:#333;
+    }
+#main1 a{
+	padding:5px 10px;}
+
+ #main2{
+	font-size:16px; 
+	border: none;
+	background:#fde9b7;
+	color:#999;
+	font-size:14px;
+	padding:5px 20px;
+    }
+
+#main2 table div.grey{color:#333;}
+li.photos{ background:#FFF;border-bottom:1px solid #c6c6c6;font-size:14px;padding:5px; }
+li.photos .name{padding-bottom:5px;}
+.margin-right{margin-right:10px;}
+ul li.photos .padding5{padding:5px;}
+.round li.title{
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #ffbd42 ), to( #fdca6b)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #ffbd42 , #fdca6b ); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #ffbd42 , #fdca6b ); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #ffbd42 , #fdca6b ); /* IE10 */
+	background-image:      -o-linear-gradient( #ffbd42 , #fdca6b ); /* Opera 11.10+ */
+	background-image:         linear-gradient( #ffbd42 , #fdca6b );
+	color:#fff;
+	font-weight:normal;
+	border-bottom: 1px solid #e89803;
+	font-weight: bold;
+	text-shadow: 0 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+	display: block;
+	box-shadow: 0 0px 0px;
+	-moz-box-shadow:0 0px 0px ;
+	-webkit-box-shadow:0 0px 0px ;
+}
+ul.round{
+	border:0px solid #e89803;
+	background-color:rgba(255, 255, 255, 0.9);
+	text-align:left;
+	font-size:14px;
+	line-height:24px;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	-moz-box-shadow:0 0px 0px;
+	-webkit-box-shadow:0 0px 0px;
+	box-shadow:0 0px 0px;
+	margin-bottom:0px;
+	display:block;
+	padding-bottom:0px;
+}
+ul.round li{
+	border:none;
+	border-width:0 0 1px 0;
+	padding:0px 0px 0 0px;
+}
+.round li.title .red{font-size: 14px;folat:left;color:#fc661f;margin:0px 5px; text-shadow:0 5px 0 #fff;}
+.kuang td{color:#fff;}
+
+.ui-content .ui-listview,
+.ui-panel-inner > .ui-listview {
+	margin:0em;
+}
+ul,li{
+    list-style-type: none;
+}
+li{ list-style:none;}
+.f-left{float:left;}
+.f-right{ float:right;}
+.font-r{text-align:right;}
+.clr{
+	clear:both;
+}
+.red{
+	color:#FF6600;
+}
+.m-left{margin-left:5px;margin-right:5px;}
